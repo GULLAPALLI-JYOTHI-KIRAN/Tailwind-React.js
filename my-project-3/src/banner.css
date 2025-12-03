@@ -1,0 +1,29 @@
+.animation-type-effect {
+  width: 0%;
+  animation-name: typing-effect;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  width: 3%;
+}
+@keyframes typing-effect {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    transition: width 0.2s linear;
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+    transition: width 0.1s linear;
+  }
+  100% {
+    transition: width 0.1s linear;
+    width: 100%;
+  }
+}
+ 
+ 

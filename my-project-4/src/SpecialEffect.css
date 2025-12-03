@@ -1,0 +1,27 @@
+.pop-in-effect {
+  animation-name: pop-in;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background: #22c1c3;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+@keyframes pop-in {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 3s linear;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100vh) scale(0.2);
+    transition: all 3s linear;
+  }
+}
+ 
