@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./specialEffect.css";
+import "./SpecialEffect.css";
 const SpecialEffect = () => {
   useEffect(() => {
     const parent = document.getElementById("parent-pop");
